@@ -1,5 +1,8 @@
 # Recipe Generator
 
+## Project 
+
+[Recipe Generation Model 🍕](https://discuss.huggingface.co/t/recipe-generation-model/7475)
 
 ## Project Description
 Given a list of ingredients, generate a recipe – similar to what the GPT3 API offers: OpenAI recipe generator. A model exists on the hub that does Recipe NLG, but it uses a GPT2 architecture. I’m curious if T5 or Bart will produce better results.
