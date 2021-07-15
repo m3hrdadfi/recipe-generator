@@ -48,3 +48,14 @@ Recipe NLG (2,231,142 recipe examples) - hugging face link - download site
 
 ## Expected result:
 Give it a list of ingredients (e.g. sugar, flour, egg, peanut butter) and it spits out a recipe (peanut butter cookies). Useful for when you are trying to use up all those miscellaneous ingredients in your pantry and fridge!
+
+## Streamlit demo for Chef Transformers
+
+
+### Launch demo:
+```
+streamlit run server.py
+```
+
+### Modify config
+Add any custom ingredient to display in `config.json` with key `first_100` to be displayed in multi-select. `next_100` are for custom ingredient adding section (to provide autocomplete assist as we type)
